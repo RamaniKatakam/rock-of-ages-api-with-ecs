@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "rock-of-ages-api-wth-ecs-rk"  
+    bucket         = "rock-of-ages-api-wth-ecs-rk-unique"  
     key            = "api/terraform.tfstate"
     region         = "us-east-2"
     dynamodb_table = "rock-of-ages-terraform-locks"  
